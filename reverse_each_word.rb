@@ -7,5 +7,5 @@ def reverse_each_word(the_phrase)
     word.reverse
   end
 
-  words_to_reverse.join(" ")
+  words_to_reverse
 end
