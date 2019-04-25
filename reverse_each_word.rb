@@ -4,11 +4,8 @@ def reverse_each_word(the_phrase)
   reversed = ""
 
   words_to_reverse.collect do |word|
-    reversed << word.reverse
-    if word != words_to_reverse.last
-    reversed << " "
-    end
+    word.reverse
   end
 
-  return reversed
+  words_to_reverse.join(" ")
 end
